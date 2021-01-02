@@ -88,13 +88,15 @@ function Engine.ParseTexts(texts, itemData)
             if type(Locales.KeyWords.WellFed) == "table" then
                 for _, s in pairs(Locales.KeyWords.WellFed) do
                     if Utility.StringContains(text, s:lower()) then
-                        itemData.isWellFed = true
+--                      itemData.isWellFed = true
+                        itemData.isWellFed = false
                         break
                     end
                 end
             elseif type(Locales.KeyWords.WellFed) == "string" then
                 if Utility.StringContains(text, Locales.KeyWords.WellFed:lower()) then
-                    itemData.isWellFed = true
+--                  itemData.isWellFed = true
+                    itemData.isWellFed = false
                 end
             end
         end
