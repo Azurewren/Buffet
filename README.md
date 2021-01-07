@@ -1,4 +1,3 @@
-#Buffet
 Buffet is a simple water/food managing addon inspired by
 [BaudConsumables](http://wow.curse.com/downloads/details/5827/) and
 [Munchies](http://www.wowinterface.com/downloads/info8174-Munchies.html).
