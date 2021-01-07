@@ -12,3 +12,6 @@ needed to provide you with food and drink out of combat, potions and stones in
 combat, and bandages on shift (HP macro only, of course).  Buffet will always
 pick the smaller stack if equal-strength items are found.  Conjured items will
 always be preferred over permanent ones.
+
+Fork Notes: This is a fork to create a Custom Version which includes food items 
+that provide the 'Well Fed' buff which the original does not allow.
